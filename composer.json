@@ -16,7 +16,7 @@
     "require": {
         "php": ">=5.0.0"
     },
-    repositories:[
+    "repositories":[
         {
             "type": "git",
             "url": "https://github.com/anatole1001/agent"
