@@ -16,6 +16,16 @@
     "require": {
         "php": ">=5.0.0"
     },
+    repositories:[
+        {
+            "type": "git",
+            "url": "https://github.com/anatole1001/agent"
+        },{
+            "type": "git",
+            "url": "https://github.com/anatole1001/mobile-detect-custom"
+        }
+    ],:wq!
+
     "require-dev": {
         "phpunit/phpunit": "*",
         "johnkary/phpunit-speedtrap": "~1.0@dev",
