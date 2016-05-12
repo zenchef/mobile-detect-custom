@@ -225,7 +225,7 @@ class Mobile_Detect
         // Only the Surface tablets with Windows RT are considered mobile.
         // http://msdn.microsoft.com/en-us/library/ie/hh920767(v=vs.85).aspx
         'SurfaceTablet'     => 'Windows NT [0-9.]+; ARM;.*(Tablet|ARMBJS)',
-        'SurfaceRtTablet'   => '^Mozilla\/5\.0 \(Windows NT 6\.3\; ARM\; Trident\/7.0\; Touch\; rv\:11\.0\) like Gecko$',
+        'SurfaceRtTablet'   => 'Mozilla/5\.0 \(Windows NT 6\.3; ARM; Trident/7.0; Touch; rv:11\.0\).*',
         // http://shopping1.hp.com/is-bin/INTERSHOP.enfinity/WFS/WW-USSMBPublicStore-Site/en_US/-/USD/ViewStandardCatalog-Browse?CatalogCategoryID=JfIQ7EN5lqMAAAEyDcJUDwMT
         'HPTablet'          => 'HP Slate (7|8|10)|HP ElitePad 900|hp-tablet|EliteBook.*Touch|HP 8|Slate 21|HP SlateBook 10',
         // Watch out for PadFone, see #132.
