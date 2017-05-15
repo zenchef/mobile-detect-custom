@@ -27,9 +27,7 @@
         }
     ],
     "require-dev": {
-        "phpunit/phpunit": "*",
-        "johnkary/phpunit-speedtrap": "~1.0@dev",
-        "codeclimate/php-test-reporter": "dev-master"
+        "phpunit/phpunit": "*"
     },
     "autoload": {
         "classmap": ["Mobile_Detect.php"],
